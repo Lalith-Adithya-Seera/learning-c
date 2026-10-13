@@ -25,17 +25,18 @@ A path is printed when the tools are installed. If macOS says no developer tools
 ## Add and push a program
 
 1. Create a numbered folder such as `02-variables/` and save the new `.c` file inside it.
-2. In the VS Code terminal, run these four Git commands from the repository folder:
+2. Add a new row to the **Programs** table in `README.md` with the date, what the program does, and what you learned.
+3. In the VS Code terminal, run these four Git commands from the repository folder:
 
    ```sh
    git status
-   git add 02-variables/
+   git add 02-variables/ README.md
    git commit -m "Add variables practice"
    git push
    ```
 
-   - `git status` shows what changed; check that the new file is listed.
-   - `git add` selects the folder's changes for the next save.
+   - `git status` shows what changed; check that your new file and README are listed.
+   - `git add` selects those changes for the next save.
    - `git commit` saves a named checkpoint on your Mac.
    - `git push` sends your committed work to GitHub.
 
