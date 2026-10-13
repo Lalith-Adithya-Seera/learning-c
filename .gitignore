@@ -1,0 +1,14 @@
+# Compiled C files and programs
+*.o
+*.a
+*.so
+*.dylib
+*.out
+*.exe
+/myfirstprogram
+
+# macOS
+.DS_Store
+
+# Personal VS Code workspace files
+.vscode/
